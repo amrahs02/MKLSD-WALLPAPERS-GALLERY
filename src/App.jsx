@@ -10,7 +10,7 @@ const App = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          '/api/panels-api/data/20240916/media-1a-i-p~s'
+          'https://storage.googleapis.com/panels-api/data/20240916/media-1a-i-p~s'
         );
         const data = response.data.data;
 
